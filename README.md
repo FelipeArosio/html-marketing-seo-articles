@@ -9,4 +9,4 @@ Questo repository raccoglie articoli scritti e codificati da me in HTML puro, co
 
 🗂️ Struttura:
 - `/articoli`: file HTML degli articoli
-- `/immagini`: eventuali asset locali
+- `/immagini`: eventuali asset locali 
