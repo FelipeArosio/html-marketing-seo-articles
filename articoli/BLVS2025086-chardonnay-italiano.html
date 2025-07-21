@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lo Chardonnay italiano</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      max-width: 900px;
+      margin-inline: auto;
+    }
+    .product-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product {
+      flex: 1 1 calc(33.33% - 20px);
+      min-width: 200px;
+      max-width: 250px;
+      text-align: center;
+    }
+    .btn {
+      background: #b89c5d;
+      color: white;
+      padding: 6px 16px;
+      border-radius: 3px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TITOLO PRINCIPALE -->
+  <h1>Cosa rende lo Chardonnay italiano così speciale</h1>
+
+  <!-- SEZIONE INTRODUTTIVA -->
+  <section>
+    <h2>Origini internazionali, anima italiana: il viaggio dello Chardonnay</h2>
+    <p>
+      Coltivato in tutto il mondo, lo Chardonnay trova in Italia una nuova identità.
+      Originario della Borgogna, si adatta a territori diversi, dando vita a
+      vini eleganti e versatili.
+    </p>
+  </section>
+
+  <!-- CALL TO ACTION CENTRALE -->
+  <section style="text-align: center; margin: 30px 0;">
+    <h3>
+      <a href="https://vinoso.shop/it/content/13-chardonnay" style="color: #b89c5d; text-decoration: underline;">
+        Scopri la nostra selezione di Chardonnay cliccando qui!
+      </a>
+    </h3>
+  </section>
+
+  <!-- GRIGLIA DI PRODOTTI -->
+  <section class="product-grid">
+    <!-- Prodotto 1 -->
+    <div class="product">
+      <img src="https://vinoso.shop/2197-large_default/pr-brut-blanc-de-blancs.jpg" alt="P.R. Brut Blanc de Blancs NV" width="100%" />
+      <p><strong>P.R. Brut Blanc de Blancs NV</strong><br>Franciacorta Brut DOCG<br>Monte Rossa</p>
+      <a class="btn" href="https://vinoso.shop/it/monte-rossa/391-pr-brut-blanc-de-blancs-8050762500135.html">Acquista</a>
+    </div>
+    <!-- Altri prodotti vanno aggiunti qui nello stesso formato -->
+  </section>
+
+  <!-- CONTENUTO INFORMATIVO -->
+  <section>
+    <h2>Le caratteristiche distintive del vino Chardonnay</h2>
+    <p>Lo Chardonnay italiano si distingue per note di frutta a polpa bianca, buona acidità e struttura. Alcuni vini affinano in legno per maggiore complessità.</p>
+  </section>
+
+  <!-- FAQ IN HTML SEMANTICO -->
+  <section>
+    <h2>FAQ sul Chardonnay</h2>
+    <details>
+      <summary>Dove si produce il Chardonnay in Italia?</summary>
+      <p>In regioni come Franciacorta, Trentino-Alto Adige e Friuli.</p>
+    </details>
+    <details>
+      <summary>Che tipo di vino è lo Chardonnay?</summary>
+      <p>È un vino bianco versatile, prodotto in versione ferma o spumantizzata.</p>
+    </details>
+  </section>
+
+  <!-- DATI STRUTTURATI FAQ (SEO avanzata) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Dove si produce il Chardonnay in Italia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In regioni come Franciacorta, Trentino-Alto Adige e Friuli."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Che tipo di vino è lo Chardonnay?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "È un vino bianco versatile, prodotto in versione ferma o spumantizzata."
+        }
+      }
+    ]
+  }
+  </script>
+
+</body>
+</html>
