@@ -1,0 +1,156 @@
+    <!-- purtroppo il cms di philarmonica non tieni le righe del json schema nel codice, però questo esempio ho provato su altro cms (prestashop) e ha funzionato perfettamente -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Ristorante aperto a Ferragosto? Idee e vini per la riapertura estiva</title>
+  <style>
+    h2 { margin-top: 30px; }
+    h3 { margin-top: 20px; }
+  </style>
+    <!-- Datti struttrati schema tabella -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Abbinamenti vino-estate: matrice vino / temperatura / piatto",
+  "description": "Tabella che mostra abbinamenti consigliati tra tipi di vino, temperatura ideale di servizio e piatti estivi.",
+  "creator": {
+    "@type": "Organization",
+    "name": "Philarmonica Distribuzione"
+  },
+  "keywords": ["vino", "estate", "temperatura di servizio", "abbinamento vino e cibo"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "mainEntity": {
+    "@type": "Table",
+    "name": "Matrice abbinamento vino-estate",
+    "about": [
+      { "@type": "PropertyValue", "name": "Vermentino", "value": "10°C + Crudo di mare" },
+      { "@type": "PropertyValue", "name": "Crémant", "value": "6°C + Aperitivo salato" },
+      { "@type": "PropertyValue", "name": "Rosé", "value": "12°C + Insalata di pollo" },
+      { "@type": "PropertyValue", "name": "Sauvignon Blanc", "value": "8-10°C + Verdure grigliate" },
+      { "@type": "PropertyValue", "name": "Pinot Nero", "value": "14-16°C + Carni bianche" },
+      { "@type": "PropertyValue", "name": "Franciacorta Satèn", "value": "6-8°C + Finger food" }
+    ]
+  }
+}
+</script>
+</head>
+<body>
+
+  <h1>Ristorante aperto a Ferragosto? Idee e vini per la riapertura estiva</h1>
+
+  <h2>Riaprire a Ferragosto: un’opportunità per distinguersi</h2>
+
+  <h3>Perché tenere il ristorante aperto a Ferragosto può essere strategico</h3>
+  <p>Ferragosto rappresenta un momento cruciale nel calendario estivo italiano. Mentre molte attività scelgono di chiudere per la pausa estiva, mantenere il ristorante aperto può rivelarsi una scelta strategica per intercettare una clientela turistica in cerca di esperienze gastronomiche autentiche. La domanda aumenta soprattutto nelle località balneari, ma anche nei centri storici e nelle zone di villeggiatura, offrendo un’occasione per distinguersi rispetto alla concorrenza.</p>
+
+  <h3>Il ruolo della carta vini nel rilancio post-pausa</h3>
+  <p>Al rientro dopo la pausa estiva, rinnovare la carta vini diventa un elemento essenziale per dare freschezza alla proposta del locale. I vini di pronta beva, come bianchi aromatici, rosé eleganti e bollicine leggere, sono perfetti per accompagnare piatti stagionali. Inoltre, aggiornare la selezione con referenze pensate per il caldo può stimolare la curiosità dei clienti abituali e attrarre nuovi visitatori, grazie anche a etichette esclusive o poco diffuse.</p>
+
+  <h2>Vini da riapertura: cosa proporre in carta dopo Ferragosto</h2>
+
+  <h3>Bollicine fresche per brunch e aperitivi</h3>
+  <p>Durante le giornate più calde, le bollicine diventano protagoniste assolute del brunch e dell’aperitivo. Crémant d’Alsace, Champagne Extra Brut e Trento Doc sono ottime scelte per chi cerca eleganza e freschezza in un calice. Selezioni come Charles Heidsieck e Franck Bonville dalla proposta Philarmonica offrono profili aromatici raffinati e grande piacevolezza, ideali per accompagnare finger food, piatti leggeri e momenti di relax al rientro dalle ferie.</p>
+
+  <h3>Bianchi estivi: leggeri ma con carattere</h3>
+  <p>La nuova carta vini dopo Ferragosto può essere arricchita da bianchi freschi ma mai banali. Pinot Bianco, Sauvignon Blanc e Vermentino sono varietà perfette per la stagione. San Michael e Winzerberg rappresentano due eccellenze da tenere in considerazione: il primo per la sua espressione alpina e minerale, il secondo per la personalità e la capacità di abbinamento gastronomico. Questi vini valorizzano la cucina estiva e aggiungono qualità alla proposta complessiva.</p>
+
+  <h3>Rosé e vini di pronta beva per accompagnare piatti leggeri</h3>
+  <p>Quando il menù propone insalate, crudi o pescato del giorno, i rosati si rivelano alleati ideali. Etichette provenienti dal Sud Italia o dalla Provenza, con buona acidità e profilo fruttato, sono perfette per lunch informali e cene leggere. Il rosé è un’opzione gastronomica in grado di esaltare ingredienti semplici ma di qualità, con un tocco di originalità e colore sulla tavola.</p>
+
+    <!-- infografica grafica -->
+
+<style>
+  .infographic {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .infographic th, .infographic td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  .infographic th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  .infographic caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+</style>
+
+<table class="infographic" itemscope itemtype="https://schema.org/Table">
+  <caption>Matrice vino - temperatura - piatto</caption>
+  <thead>
+    <tr>
+      <th itemprop="about">Vino consigliato</th>
+      <th itemprop="about">Temperatura di servizio</th>
+      <th itemprop="about">Tipo di piatto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr itemscope itemtype="https://schema.org/Thing">
+      <td itemprop="name">Vermentino</td>
+      <td itemprop="description">10°C</td>
+      <td itemprop="additionalType">Crudo di mare</td>
+    </tr>
+    <tr itemscope itemtype="https://schema.org/Thing">
+      <td itemprop="name">Crémant</td>
+      <td itemprop="description">6°C</td>
+      <td itemprop="additionalType">Aperitivo salato</td>
+    </tr>
+    <tr itemscope itemtype="https://schema.org/Thing">
+      <td itemprop="name">Rosé</td>
+      <td itemprop="description">12°C</td>
+      <td itemprop="additionalType">Insalata di pollo</td>
+    </tr>
+    <tr itemscope itemtype="https://schema.org/Thing">
+      <td itemprop="name">Sauvignon Blanc</td>
+      <td itemprop="description">8-10°C</td>
+      <td itemprop="additionalType">Verdure grigliate</td>
+    </tr>
+    <tr itemscope itemtype="https://schema.org/Thing">
+      <td itemprop="name">Pinot Nero</td>
+      <td itemprop="description">14-16°C</td>
+      <td itemprop="additionalType">Carni bianche</td>
+    </tr>
+    <tr itemscope itemtype="https://schema.org/Thing">
+      <td itemprop="name">Franciacorta Satèn</td>
+      <td itemprop="description">6-8°C</td>
+      <td itemprop="additionalType">Crostini o finger food</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Come valorizzare i vini al rientro: strategie per ristoranti e locali</h2>
+
+  <h3>Mini degustazioni e pairing tematici</h3>
+  <p>Ripartire dopo Ferragosto può diventare l’occasione perfetta per proporre serate a tema con degustazioni guidate e pairing studiati. Menù dedicati, come “Fresche bollicine di Ferragosto” o “Vini d’estate”, sono strumenti efficaci per raccontare il vino e coinvolgere i clienti in esperienze sensoriali complete. Inoltre, le offerte combinate – ad esempio, calice + antipasto o menu degustazione – stimolano la curiosità e aumentano il valore percepito della carta vini.</p>
+
+  <h3>Comunicazione al cliente: menù digitali e storytelling</h3>
+  <p>Un altro elemento chiave è l’uso di strumenti digitali per comunicare con efficacia. I menù digitali, completi di QR code e descrizioni brevi ma coinvolgenti, permettono di raccontare l’identità delle etichette e delle cantine. Presentare i vini con brevi note sul territorio e sulla filosofia produttiva aiuta il personale di sala a vendere meglio e rafforza il legame tra cliente e prodotto.</p>
+
+  <h3>Ottimizzare l’assortimento per le settimane successive</h3>
+  <p>Con il ritorno alla normalità, è importante riorganizzare l’assortimento in modo flessibile. Preferire vini che si adattano a più tipologie di piatti consente una gestione più efficiente della cantina. Affinare la proposta attraverso referenze versatili aiuta anche a migliorare i margini e a offrire continuità nel servizio, evitando surplus o mancanze nei momenti di maggiore affluenza.</p>
+
+  <h2>Focus prodotto: etichette consigliate per l’estate</h2>
+
+  <h3>Champagne Extra Brut & Crémant: eleganza e acidità</h3>
+  <p>Per l’estate, la freschezza e la struttura diventano qualità essenziali nella scelta delle bollicine. Etichette come Devaux Ultra D Extra Brut o il Franck Bonville Grand Cru Blanc de Blancs offrono precisione, acidità e persistenza ideali per l’abbinamento con piatti estivi o aperitivi eleganti. Sono vini che, oltre al piacere immediato, raccontano storie di terroir e savoir-faire, arricchendo l’esperienza a tavola.</p>
+
+  <h3>I bianchi perfetti per agosto</h3>
+  <p>Tra i bianchi più adatti alla stagione spiccano proposte come il Pinot Blanc di Gustave Lorentz, ricco di note fruttate e freschezza minerale, o il Kerner di Winzerberg, espressione alpina di grande bevibilità. Questi vini sono versatili e si adattano a un’ampia gamma di piatti estivi, offrendo equilibrio e vivacità al palato anche nelle giornate più calde.</p>
+
+  <h3>Rosati e rossi leggeri</h3>
+  <p>Non può mancare una selezione di rosati gastronomici per chi ama profumi estivi e strutture morbide. Il Rosé di Ultimate Provence, Le Rosé Pinot Noir di Gustave Lorentz e l’Etna Rosato di Tenute Ballasanti si distinguono per la capacità di accompagnare piatti freddi, insalate di carne o pesce e cucina mediterranea. Proposte ideali per chi desidera varietà e colore nella propria offerta estiva.</p>
+
+  <h2>Conclusione: ristorante aperto a Ferragosto e carte vini d’autore</h2>
+  <p>Scegliere di rimanere aperti a Ferragosto è un’opportunità concreta per rafforzare l’identità del locale e proporre una carta vini pensata su misura per la stagione. L’attenzione alla selezione, alle modalità di servizio e alla comunicazione del vino può fare la differenza nell’esperienza del cliente. Con etichette fresche, flessibili e raccontate nel modo giusto, è possibile trasformare il ritorno dalle ferie in un’occasione di rilancio. Philarmonica accompagna questa fase con un catalogo selezionato e un supporto commerciale su misura.</p>
+
+</body>
+</html>
